@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Name | Department of Science</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background: #f4f4f4; }
+        header { border-bottom: 2px solid #0056b3; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0; color: #0056b3; }
+        nav a { margin-right: 15px; text-decoration: none; color: #555; font-weight: bold; }
+        .profile-container { display: flex; gap: 30px; align-items: center; }
+        .profile-pic { width: 150px; height: 150px; border-radius: 50%; background: #ddd; object-fit: cover; }
+        section { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; color: #2c3e50; }
+        .pub-item { margin-bottom: 15px; }
+        .tag { background: #eef; font-size: 1.5em; padding: 2px 8px; border-radius: 4px; color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shengyun Liu</h1>
+    <p>Associate Professor | School of Computer Science, Shanghai Jiao Tong University (SJTU)</p>
+    <nav>
+        <a href="#about">About</a>
+<!--        <a href="#research">Research</a> -->
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <div class="profile-container">
+        <img src="images/lsy.png" alt="Profile" class="profile-pic">
+        <div>
+            I received my PhD in Computer Science from Télécom Paris (EURECOM). 
+	My research aims to enhance the efficiency and dependability of distributed systems, with a particular focus on blockchain, data storage, and federated learning.	
+	Currently, I lead the Decentralized Computing Lab, where our mission is to derive <a href="https://www.acm.org/articles/bulletins/2014/march/03182014-turing-award" target="_blank" rel="noopener noreferrer">well-defined coherence</a> from the inherent complexity of large-scale distributed systems.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 
+<section id="research">
+    <h2>Recent Research</h2>
+    <ul>
+        <li><strong>Project Alpha:</strong> Investigating the impact of X on Y.</li>
+        <li><strong>Project Beta:</strong> Developing new frameworks for Z.</li>
+    </ul>
+</section>
+-->
+
+<section id="publications">
+    <h2>Selected Publications</h2>
+     <span class="tag">Conference</span><br>
+    <div class="pub-item">
+       <strong>"BIND: Enabling Continuous Transaction Processing During Account Migration in Sharded Blockchains"</strong><br>
+	Jiahao Qi, Dian Ding, Jie Li, Jiannong Cao, Yi-Chao Chen, Guangtao Xue, <strong>Shengyun Liu</strong><br>
+        <em>ACM WWW</em>, 2026. To appear.
+    </div>
+    <div class="pub-item">
+        <strong>"Chitu: Avoiding Unnecessary Fallback in Byzantine Consensus"</strong><br>
+	Rongji Huang, Xiangzhe Wang, Xiaofeng Yan, Lei Fan, Guangtao Xue, <strong>Shengyun Liu</strong><br>
+        <em>Usenix ATC</em>, 2025.
+	  <span class="links">
+	    <a href="https://www.usenix.org/conference/atc25/presentation/huang-rongji">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"EquiBFT: A Framework for Achieving Fairness in BFT Consensus"</strong><br>
+	Siwei Cai, Lei Fan, <strong>Shengyun Liu</strong>, Hong-Sheng Zhou<br>
+        <em>IEEE ICDCS</em>, 2025.
+	  <span class="links">
+	    <a href="https://ieeexplore.ieee.org/iel8/11183722/11183723/11183756.pdf">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Vegeta: Enabling Parallel Smart Contract Execution in Leaderless Blockchains"</strong><br>
+	Tianjing Xu, Yongqi Zhong, Yiming Zhang, Ruofan Xiong, Jingjing Zhang, Guangtao Xue, <strong>Shengyun Liu</strong><br>
+        <em>Usenix NSDI</em>, 2025.
+	  <span class="links">
+	    <a href="https://www.usenix.org/conference/nsdi25/presentation/xu-tianjing">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Cheetah: Metadata aggregation for fast object storage without distributed ordering"</strong><br>
+	Yiming Zhang, Li Wang, <strong>Shengyun Liu</strong>, Shun Gai, Haonan Wang, Xin Yao, Meiling Wang, Kai Chen, Dongsheng Li, Jiwu Shu<br>
+        <em>ACM EuroSys</em>, 2025.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/10.1145/3689031.3696080">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Bandle: Asynchronous state machine replication made efficient"</strong><br>
+	Bo Wang*, <strong>Shengyun Liu</strong>* (equal contribution), He Dong, Xiangzhe Wang, Wenbo Xu, Jingjing Zhang, Ping Zhong, Yiming Zhang<br>
+        <em>ACM EuroSys</em>, 2024.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/10.1145/3627703.3650091">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Flexible advancement in asynchronous bft consensus"</strong><br>
+	<strong>Shengyun Liu</strong>, Wenbo Xu, Chen Shan, Xiaofeng Yan, Tianjing Xu, Bo Wang, Lei Fan, Fuxi Deng, Ying Yan, Hui Zhang<br>
+        <em>ACM SOSP</em>, 2023.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/10.1145/3600006.3613164">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Bridging the gap of timing assumptions in byzantine consensus"</strong><br>
+	Zixuan Chen, Lei Fan, <strong>Shengyun Liu</strong> (alphabetical order), Marko Vukolić, Xiangzhe Wang, Jingjing Zhang<br>
+        <em>ACM Middleware</em>, 2023.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/10.1145/3590140.3629114">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Ursa: Hybrid block storage for cloud-scale virtual disks"</strong><br>
+	Huiba Li, Yiming Zhang, Dongsheng Li, Zhiming Zhang, <strong>Shengyun Liu</strong>, Peng Huang, Zheng Qin, Kai Chen, Yongqiang Xiong<br>
+        <em>ACM EuroSys</em>, 2019.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/10.1145/3302424.3303967">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"PARIX: Speculative Partial Writes in Erasure-Coded Systems"</strong><br>
+	Huiba Li, Yiming Zhang, Zhiming Zhang, <strong>Shengyun Liu</strong>, Dongsheng Li, Xiaohui Liu, Yuxing Peng<br>
+        <em>Usenix ATC (short paper)</em>, 2017.
+	  <span class="links">
+	    <a href="https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-huiba">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"XFT: Practical fault tolerance beyond crashes"</strong><br>
+	<strong>Shengyun Liu</strong>, Paolo Viotti, Christian Cachin, Vivien Quéma, Marko Vukolić<br>
+        <em>Usenix OSDI</em>, 2016.
+	  <span class="links">
+	    <a href="https://www.usenix.org/conference/osdi16/technical-sessions/presentation/liu">[PDF]</a>
+	  </span>
+    </div>
+    <span class="tag">Journal</span><br>
+    <div class="pub-item">
+        <strong>"Customizable Information Dispersal-Based Byzantine Broadcast with Communication Optimization Using Bloom Filters"</strong><br>
+	Shuangquan Tan, Yong Chen, <strong>Shengyun Liu</strong><br>
+        <em>IEEE TDSC</em>, 2026.
+	  <span class="links">
+	    <a href="https://ieeexplore.ieee.org/abstract/document/11387747">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Efficient Block Storage in the Cloud"</strong><br>
+	Yiming Zhang, Zhihao Zhang, Yan Chen, Huiba Li, Haonan Wang, Ping Zhong, <strong>Shengyun Liu</strong>, Dongsheng Li<br>
+        <em>IEEE TCAD</em>, 2024.
+	  <span class="links">
+	    <a href="https://ieeexplore.ieee.org/document/10530208">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Hybrid block storage for efficient cloud volume service"</strong><br>
+	Yiming Zhang, Huiba Li, <strong>Shengyun Liu</strong>, Peng Huang<br>
+        <em>ACM ToS</em>, 2023.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/full/10.1145/3596446">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"PBS: An efficient erasure-coded block storage system based on speculative partial writes"</strong><br>
+	Yiming Zhang, Huiba Li, <strong>Shengyun Liu</strong>, Jiawei Xu, Guangtao Xue<br>
+        <em>ACM ToS</em>, 2020.
+	  <span class="links">
+	    <a href="https://dl.acm.org/doi/abs/10.1145/3365839">[PDF]</a>
+	  </span>
+    </div>
+    <div class="pub-item">
+        <strong>"Leader set selection for low-latency geo-replicated state machine"</strong><br>
+	<strong>Shengyun Liu</strong>, Marko Vukolić<br>
+        <em>IEEE TPDS</em>, 2017.
+	  <span class="links">
+	    <a href="https://ieeexplore.ieee.org/document/7774985/">[PDF]</a>
+	  </span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <img src="images/email.png" alt="Email Address" style="vertical-align: middle; height: 2.0em;"></p>
+    <p>📍 Office: Room 5209, Software Building, 800 Dongchuan Road, Shanghai, China</p>
+</section>
+
+</body>
+</html>
