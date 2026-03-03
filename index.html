@@ -15,16 +15,48 @@
         h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; color: #2c3e50; }
         .pub-item { margin-bottom: 15px; }
         .tag { background: #eef; font-size: 1.5em; padding: 2px 8px; border-radius: 4px; color: #0056b3; }
+
+	  /* Style the table overall */
+	  table {
+	    font-family: Arial, sans-serif;
+	    border-collapse: collapse;
+	    width: 100%;
+	  }
+
+	  /* Style the cells */
+	  td, th {
+	    border: 1px solid #dddddd;
+	    text-align: left;
+	    padding: 12px;
+	  }
+
+	  /* Header row background color */
+	  th {
+	    background-color: #0056b3;
+	    color: white;
+	  }
+
+	  /* Alternating row colors (Zebra stripes) */
+	  tr:nth-child(even) {
+	    background-color: #f2f2f2;
+	  }
+
+	  /* Hover effect to highlight a row */
+	  tr:hover {
+	    background-color: #e2f0d9;
+	  }
     </style>
 </head>
-<body>
 
+<body>
 <header>
     <h1>Shengyun Liu</h1>
     <p>Associate Professor | School of Computer Science, Shanghai Jiao Tong University (SJTU)</p>
     <nav>
         <a href="#about">About</a>
         <a href="#publications">Publications</a>
+        <a href="#students">Students</a>
+        <a href="#former">Former members</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -35,7 +67,7 @@
         <div>
         I received my PhD in Computer Science from Télécom Paris (EURECOM), under the supervision of <a href="https://vukolic.com/" target="_blank" rel="noopener noreferrer">Marko Vukolić</a>. 
 	My research aims to enhance the efficiency and dependability of distributed systems, with a particular focus on blockchain, data storage, and federated learning.	
-	Currently, I lead the Decentralized Computing Lab, where our mission is to derive <a href="https://www.acm.org/articles/bulletins/2014/march/03182014-turing-award" target="_blank" rel="noopener noreferrer">well-defined coherence</a> from the inherent complexity of large-scale distributed systems.
+	Currently, I lead the Decentralized Computing Lab (DCL), where our mission is to derive <a href="https://www.acm.org/articles/bulletins/2014/march/03182014-turing-award" target="_blank" rel="noopener noreferrer">well-defined coherence</a> from the inherent complexity of large-scale distributed systems.
 	We are always looking for motivated Master’s and PhD students. If you are interested in our research, please get in touch to discuss potential opportunities.
         </div>
     </div>
@@ -171,6 +203,86 @@
 	  </span>
     </div>
 </section>
+
+<section id="students">
+<h2>Students</h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <td>Yifeng Ye</td>
+    <td>PhD student</td>
+  </tr>
+  <tr>
+    <td>Pengjiang Zou</td>
+    <td>PhD student</td>
+  </tr>
+  <tr>
+    <td>Yuxin Du</td>
+    <td>PhD student</td>
+  </tr>
+  <tr>
+    <td>Jiahao Qi (co-supervised with Guangtao Xue)</td>
+    <td>PhD student</td>
+  </tr>
+  <tr>
+    <td>Rongji Huang</td>
+    <td>Master's student</td>
+  </tr>
+  <tr>
+    <td>Yuan Ge</td>
+    <td>Master's student</td>
+  </tr>
+  <tr>
+    <td>Jiaying Sun</td>
+    <td>Master's student</td>
+  </tr>
+</table>
+</section>
+
+<section id="former">
+<h2>Former Members</h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Position</th>
+  </tr>
+  <tr>
+    <td>Zixuan Chen</td>
+    <td>ByteDance</td>
+  </tr>
+  <tr>
+    <td>Chen Shan</td>
+    <td>Ant Group</td>
+  </tr>
+  <tr>
+    <td>XiaoFeng Yan</td>
+    <td>Ant Group</td>
+  </tr>
+  <tr>
+    <td>He Dong</td>
+    <td>East Money Information</td>
+  </tr>
+  <tr>
+    <td>Yongqi Zhong</td>
+    <td>University of Pennsylvania</td>
+  </tr>
+  <tr>
+    <td>Xiangzhe Wang</td>
+    <td>Baidu</td>
+  </tr>
+    <tr>
+    <td>Tianjing Xu (co-supervised with Yiming Zhang)</td>
+    <td>China Construction Bank</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Bo Wang (co-supervised with Ping Zhong)</td>
+    <td></td>
+  </tr>
+</table>
 
 <section id="contact">
     <h2>Contact</h2>
